@@ -1,5 +1,8 @@
 extends layout
 
+block scripts
+    link(rel='stylesheet', href='/stylesheets/chat.css')
+
 block content
     div(class='chat')
         ul(id='messages')
@@ -7,4 +10,4 @@ block content
                 input(id='m', autocomplete='off')
                 button Send
 
-    script(src="/socket.io/socket.io.js")
+
