@@ -7,16 +7,19 @@ nn's playing against each other and make it observable to watch their way to lea
 I want to make games playable by users too against ai and for sure the games will be available
  to play simple PvP without any Ai but it's not that fun.
 
-
-# step 1.
+## Installation
+#### step 1.
 
 The simulator runs in Node.js V.:12.0.0  
+```nps
 nvm use 12.0.0
-
-# step2.
-
+```
+#### step2.
+```npm
 npm i
+```
 
-# step3.
-
+#### step3.
+```npm
 npm start
+```
