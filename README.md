@@ -11,7 +11,7 @@ I want to make games playable by users too against ai and for sure the games wil
 #### step 1.
 
 The simulator runs in Node.js V.:12.0.0  
-```nps
+```npm
 nvm use 12.0.0
 ```
 #### step2.
