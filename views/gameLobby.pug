@@ -1,15 +1,15 @@
 extends layout
 include chat/chatMessages
-include constant/websocket
-
+include game/gameCanvas
 
 block scripts
     link(rel='stylesheet', href='/stylesheets/chat.css')
+    link(rel='stylesheet', href='/stylesheets/game.css')
 
 block content
     div(class='row')
         div(class='col-10')
-            h1 gamecanvas place
+            +gameCanvas(800,600)
         div(class='col-2')
             +chatMessages
 

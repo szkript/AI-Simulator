@@ -27,5 +27,7 @@ mixin navbar
                     a(class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true") Disabled
 
             form(class="form-inline my-2 my-lg-0" id='chatForm' action='')
+                label show chat
+                input(type='checkbox' class='toggleChat' checked)
                 input(id='m' class="form-control mr-sm-2" type="chatInput" placeholder="Send message" aria-label="Send message" autocomplete='off')
                 button(class="btn btn-outline-success my-2 my-sm-0 " type="submit") Send
