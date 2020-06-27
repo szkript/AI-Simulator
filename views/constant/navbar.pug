@@ -7,7 +7,7 @@ mixin navbar
         div(class="collapse navbar-collapse" id="navbarSupportedContent")
             ul(class="navbar-nav mr-auto")
                 li(class="nav-item active")
-                    a(class="nav-link" href="/chat") chat
+                    a(class="nav-link" href="/gameLobby") Gme lobby
 
                 li(class="nav-item")
                     a(class="nav-link" href="#") unused
@@ -26,6 +26,6 @@ mixin navbar
                 li(class="nav-item")
                     a(class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true") Disabled
 
-            form(class="form-inline my-2 my-lg-0")
-                input(class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" disabled)
-                button(class="btn btn-outline-success my-2 my-sm-0 " type="submit" disabled) Search
+            form(class="form-inline my-2 my-lg-0" id='chatForm' action='')
+                input(id='m' class="form-control mr-sm-2" type="chatInput" placeholder="Send message" aria-label="Send message" autocomplete='off')
+                button(class="btn btn-outline-success my-2 my-sm-0 " type="submit") Send
